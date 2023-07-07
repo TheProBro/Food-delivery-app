@@ -1,0 +1,12 @@
+.carousel-item img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+.carousel-caption{
+    z-index: 10;
+}
+#carouselExampleSlidesOnly{
+    object-fit: contain !important;
+}

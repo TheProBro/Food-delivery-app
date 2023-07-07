@@ -1,4 +1,4 @@
-# Image Morphing
+# Food Delivery App
 This is a repository for a food delivery application, a web-based platform designed to facilitate online ordering and delivery of food from various restaurants. The app aims to provide a seamless experience for users to browse menus, place orders, and track deliveries.
 
 ## Table of Contents

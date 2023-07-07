@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Image Morphing
+This is a repository for a food delivery application, a web-based platform designed to facilitate online ordering and delivery of food from various restaurants. The app aims to provide a seamless experience for users to browse menus, place orders, and track deliveries.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Upcoming Features](#upcoming-features)
+* [Contributing](#contributing)
 
-## Available Scripts
+## Features
+- User Registration and Authentication: Users can create accounts and log in to the app, allowing them to access personalized features and maintain order history.
+- Restaurant Selection: Users can browse a list of available restaurants, view their menus, and select desired food items.
+- Cart Management: Users can add food items to their cart, view the contents, and make modifications such as quantity adjustments or item removal.
+#### Coming Soon:
+- Restaurant Dashboard: Restaurants have access to a dashboard where they can manage their menu, update item availability, and view and process incoming orders.
+- Checkout and Payment: Users can proceed to the checkout process, where they enter delivery details and complete the payment using supported payment methods securely.
 
-In the project directory, you can run:
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript, React
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JSON Web Tokens
 
-### `npm start`
+## Installation
+To use this project, you need to have [Node.js](https://nodejs.org) installed on your system. Follow these steps to get started:
+1. Clone the repository: 
+  ~~~~ 
+  git clone https://github.com/TheProBro/Image-Morphing.git
+  ~~~~
+2. Change into the directory:
+~~~~
+cd Food-delivery-app
+~~~~
+3. Install the dependencies for both server and client:
+~~~~
+npm install
+cd server
+npm install
+~~~~
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Usage
+1. Run the Front-end:
+~~~~
+npm start
+~~~~
+2. Run the server:
+~~~~
+cd server
+npm start
+~~~~
+## Upcoming Features
+- User Ratings and Reviews
+- A secure payment gateway
+- End point for Restaurants
+## Contributing
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. When contributing, please provide clear descriptions of the changes made and any relevant information or context.
